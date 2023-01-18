@@ -3,7 +3,7 @@
 
 **Used technologies**: HTML5, CSS3(Scss), JS.
 
-**Dependencies**: eslint, node-sass, parcel, stylelint, stylelint-scss
+**devDependencies**: eslint, node-sass, parcel, stylelint, stylelint-scss
 
 ## Description
 
