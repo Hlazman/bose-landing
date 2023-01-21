@@ -17,21 +17,23 @@
 
   &__link {
     @include nav-links (22, 22);
+    color: $c-black;
     @include transition-hover {
-      border-bottom: 1px solid $c-white;
+      border-bottom: 1px solid $c-darkGray;
       padding-bottom: 8px;
     }
   }
 
   &__order-call {
-    border-bottom: 1px solid $c-white;
+    border-bottom: 1px solid $c-darkGray;
     padding-bottom: 8px;
     width: max-content;
 
     &-link {
       @include nav-links (12, 16);
+      color: $c-black;
       @include transition-hover {
-        color: $c-darkGray;
+        color: $c-darkBlue;
       }
     }
   }

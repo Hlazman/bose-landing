@@ -1,6 +1,6 @@
 .header {
   &__front {
-    background: url(../images/header_bg.jpg) no-repeat center / cover;
+    background: url(../images/header_banner.jpg) no-repeat center / cover;
   }
 
   &__back {
@@ -9,7 +9,7 @@
     right: 0;
     top: 0;
     transform: translateX(-100%);
-    background-color: $c-blue;
+    background-color: $c-backMenu;
     overflow-y: auto;
     @include transition;
 
@@ -37,9 +37,16 @@
   &__title::before {
     content: "";
     display: block;
-    height: 2px;
-    width: 40px;
-    margin-bottom: 24px;
-    background-color: $c-white;
+    background-image: url(../images/sound_mob.svg);
+    margin-bottom: 15px;
+    width: 32px;
+    height: 27px;
+
+    @include on-desktop {
+      background-image: url(../images/sound.svg);
+      width: 63px;
+      height: 76px;
+      margin-bottom: 30px;
+    }
   }
 }

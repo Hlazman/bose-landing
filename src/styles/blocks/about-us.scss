@@ -14,12 +14,6 @@
 
     &-link {
       @include links;
-      @include on-desktop {
-        &::before {
-          content: "";
-          display: block;
-        }
-      }
     }
   }
 

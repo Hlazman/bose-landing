@@ -1,6 +1,6 @@
 .header-top {
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 80% 10% 10%;
   justify-content: space-between;
   align-items: center;
 
@@ -8,6 +8,12 @@
     @include icon ("../images/menu.svg");
     @include transition-hover {
       background-image: url(../images/menu_hover.svg);
+    };
+    justify-self: end;
+    order: 1;
+
+    @include on-desktop {
+      justify-self: center;
     }
   }
 
@@ -39,7 +45,7 @@
         font-size: 12px;
         line-height: 16px;
         letter-spacing: 2px;
-        color: $c-white;
+        color: $c-darkGray;
         opacity: 0;
         pointer-events: none;
         @include transition;

@@ -1,12 +1,14 @@
 .footer {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  align-items: flex-end;
   background: url(../images/footer.jpg) no-repeat center / cover;
   height: 206px;
-  padding-bottom: 25px;
+  padding: 25px 0;
 
   @include on-desktop {
-    height: 359px;
-    padding-bottom: 35px;
+    height: 466px;
+    align-items: flex-start;
+    padding: 35px 0;
   }
 }
