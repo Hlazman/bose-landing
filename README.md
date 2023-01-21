@@ -1,5 +1,5 @@
-# Landing page: Miami
-**DEMO LINK**: https://hlazman.github.io/miami-landing/
+# Landing page: Bose
+**DEMO LINK**: https://hlazman.github.io/bose-landing/
 
 **Used technologies**: HTML5, CSS3(Scss), JS.
 
@@ -7,4 +7,4 @@
 
 ## Description
 
-Miami real estate landing page with reviews, image gallery and contact form
+Product landing page (Bose) with reviews, image gallery and contact form
